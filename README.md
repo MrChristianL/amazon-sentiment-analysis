@@ -14,10 +14,10 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-revie
 
 #### VADER Model
 Figure 1 shows the confidence the VADER model has for its determined 'compound score' for each review when compared to the star rating each Amazon review received. 
-[!fig-images/Vader - compound vs score.png]
+[!image](fig-images/Vader%20-%20compound%20vs%20score.png)
 
 This shows that the confidence of the model wavers far less for the positive reviews than it does the negative reviews. This trend continues when viewing the positive, neutral, and negative-scored sentiments individually, as shown in Figure 2
-[!fig-images/Vader - each vs score.png]
+[!image](fig-images/Vader%20-%20each%20vs%20score.png)
 
 ---
 
@@ -26,7 +26,7 @@ This shows that the confidence of the model wavers far less for the positive rev
 The RoBERTa model is a pre-trained neural network model provided by HuggingFace that is capable of more advanced sentiment analysis due to its ability to recognize context within a piece of text. As such, RoBERTa has slightly more evidence for each entry in which to base its reviews off of.
 
 Figure 3 below shows the pair plot between the VADER and RoBERTa models:
-[!fig-images/Vader - Roberta vs vader.png]
+[!image](fig-images/Vader%20-%20Roberta%20vs%20vader.png)
 
 This figure displays the increased confidence of the RoBERTa model in the form of sharper peaks along the diagonal. The diagonal entries along the pair plot are kernal density estimates (KDEs) for each metric's performance.
 
